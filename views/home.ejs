@@ -1,0 +1,56 @@
+<%- include('./partials/header.ejs') %>
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-sm-2">
+                <%- include('./partials/sidebar.ejs', {page_name : 'Home' }) %>
+            </div>
+            <div class="col-sm-10">
+                <!-- Home Content -->
+                <div class="mt-5">
+                    <div class="text-center">
+                        <img src="/images/image1.jpg" alt="" class="img-thumbnail" width="250px" height="150px">
+
+                    </div>
+                    <div class="mt-5 text-white mx-5 text-justify">
+                        <h1 class="fw-bold st-font">Hello,</h1>
+                        <div class="px-4" style="line-height:2rem;">
+                            <p style="text-indent:100px;">I am <b class="text-warning">Swapnil Khatik </b>As a
+                                third-year student at VPKBIET College pursuing a degree in Computer Science and
+                                Engineering, I am currently focusing my studies on the areas of web development and data
+                                structures and algorithms (DSA).
+
+                            </p>
+                            <p>
+                                Through my coursework in web development, I have gained experience in designing and
+                                building visually appealing and functional websites using various tools and
+                                technologies. This involves writing clean, efficient code and integrating backend
+                                systems to power the website's functionality.
+
+
+                            </p>
+                            <p>In addition to my web development skills, my studies in DSA have equipped me with a
+                                strong foundation in algorithm design, analysis, and implementation. I am proficient in
+                                working with data structures such as arrays, linked lists, trees, and graphs, and
+                                understand their applications in efficient data management and processing.</p>
+                            <p>
+                                Overall, my focus on web development and DSA has provided me with a well-rounded skill
+                                set that I am eager to apply in the field of computer science. I am excited to continue
+                                expanding my knowledge and expertise in these areas, and am confident that my skills
+                                will enable me to make valuable contributions in the industry
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div class="text-center">
+                        <a href="/contact" class="btn btn-outline-warning mx-5 my-3">Hire Me</a>
+                        <a href="/contact" class="btn btn-outline-info">Contact</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <%- include('./partials/footer.ejs') %>
